@@ -17,17 +17,17 @@ img {
   width: 100px;
 }
 
-#hero-section {
+.hero-section {
   background-image: url("images/annarbor.jpg");
   background-size: cover;
   width: 720px;
   height: 340px;
 }
 
-#hero-title {
+.hero-title {
   color: #F1FAEE;
 }
 
-#hero-subtitle {
+.hero-subtitle {
   color: #F1FAEE;
 }
