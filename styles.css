@@ -12,6 +12,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  color: #1D3557;
 }
 
 img {
@@ -53,18 +54,20 @@ img {
 }
 
 .activities-section h3 {
-  color: #1D3557;
   font-size: 1.5rem;
+  margin-top: 40px;
 }
 
-.wrapper {
+.act-wrapper {
   width: 720px;
   margin: auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  margin-top: 40px;
 }
 
-.card {
-  width: 250px
+.act-card {
+  width: 200px;
+  font-size: 1rem;
 }
