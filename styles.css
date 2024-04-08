@@ -15,11 +15,6 @@ body {
   color: #1D3557;
 }
 
-img {
-  width: 100px;
-  border-radius: 50%;
-}
-
 .hero-section {
   background-image: url("images/annarbor2.jpeg");
   background-size: cover;
@@ -58,6 +53,11 @@ img {
   margin-top: 40px;
 }
 
+.act-wrapper img {
+  width: 100px;
+  border-radius: 50%;
+}
+
 .act-wrapper {
   width: 720px;
   margin: auto;
@@ -70,4 +70,15 @@ img {
 .act-card {
   width: 200px;
   font-size: 1rem;
+}
+
+.guide-section {
+  margin: 40px auto;
+}
+
+.guide-wrapper {
+  display: flex;
+  width: 400px;
+  height: 300px;
+  justify-content: center;
 }
