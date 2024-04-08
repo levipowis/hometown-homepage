@@ -55,3 +55,10 @@ img {
   color: #1D3557;
   font-size: 1.5rem;
 }
+
+.wrapper {
+  width: 720px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
