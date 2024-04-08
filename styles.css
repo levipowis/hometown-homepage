@@ -16,6 +16,7 @@ body {
 
 img {
   width: 100px;
+  border-radius: 50%;
 }
 
 .hero-section {
@@ -61,4 +62,9 @@ img {
   margin: auto;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 250px
 }
