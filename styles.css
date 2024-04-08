@@ -73,7 +73,10 @@ body {
 }
 
 .guide-section {
-  margin: 40px auto;
+  margin: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .guide-wrapper {
@@ -81,4 +84,26 @@ body {
   width: 400px;
   height: 300px;
   justify-content: center;
+  background-color: #A8DADC;
+  border-radius: 12px;
+  border-bottom: 5px solid #1D3557;
+}
+
+.guide-wrapper img {
+  padding: 20px 10px;
+  border-radius: 30px;
+}
+
+.guide-text {
+  margin-top: 6px;
+  padding: 10px;
+}
+
+.guide-text h3 {
+  font-size: 1.5rem;
+}
+
+.guide-text p {
+  font-size: 0.9rem;
+  font-style: italic;
 }
